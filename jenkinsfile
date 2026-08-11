@@ -25,7 +25,7 @@
             steps {
                 echo 'Starting validation...'
                 sh 'test -f README.md'
-                sh 'test -f Jenkinsfile'
+                sh 'test -f jenkinsfile'
                 echo 'Validation successful!'
             }
         }
